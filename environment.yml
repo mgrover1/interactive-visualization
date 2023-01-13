@@ -1,10 +1,17 @@
-name: cookbook-dev
+name: interactive-visualization-dev
 channels:
   - conda-forge
+  - pyviz
 dependencies:
   - jupyter-book
   - jupyterlab
   - jupyter_server<2
+  - xarray
+  - pandas
+  - holoviews
+  - hvplot
+  - geoviews
+  - datashader
   - pip
   - pip:
       - sphinx-pythia-theme
