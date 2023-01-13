@@ -1,4 +1,4 @@
-name: interactive-visualization-dev
+name: interactive-visualization-cookbook-dev
 channels:
   - conda-forge
   - pyviz

@@ -1,34 +1,38 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# Interactive Visualization Cookbook
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
+[![nightly-build](https://github.com/mgrover1/interactive-visualization-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/mgrover1/interactive-visualization-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/mgrover1/interactive-visualization-cookbook/main?labpath=notebooks)
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook walks through how to visualize your geoscience data interactively using python! We walk through tabular and gridded visualizations, focusing on how to get started to building more complex dashboards for your data.
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. *Acknowledge primary content authors here*
+[Max Grover](@mgrover1)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/mgrover1/interactive-visualization-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mgrover1/interactive-visualization-cookbook" />
 </a>
 
 ## Structure
 (State one or more sections that will comprise the notebook. E.g., *This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."* Then, describe each section below.)
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Foundations
+This section will break down the different options within the python interactive visualization space. This includes
+- Holoviz Stack
+- Panel
+- Plotly
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-(Add content for this section, e.g., "Example workflows include ... ")
+### Example Workflows
+Here we apply the foundations to real-world datasets such as
+- Weather radar maps
+- Large cloud-hosted datasets
+- Tabular climate datasets
 
 ## Running the Notebooks
 You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
@@ -55,19 +59,19 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "cookbook-example" with the title of your cookbooks)   
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/mgrover1/interactive-visualization-cookbook` repository:
 
    ```bash
     git clone https://github.com/ProjectPythia/cookbook-example.git
     ```  
-1. Move into the `cookbook-example` directory
+1. Move into the `interactive-visualization-cookbook` directory
     ```bash
     cd cookbook-example
     ```  
 1. Create and activate your conda environment from the `environment.yml` file
     ```bash
     conda env create -f environment.yml
-    conda activate cookbook-example
+    conda activate interactive-visualization-cookbook-dev
     ```  
 1.  Move into the `notebooks` directory and start up Jupyterlab
     ```bash
